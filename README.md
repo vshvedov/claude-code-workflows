@@ -6,9 +6,22 @@ A Claude Code plugin: five-stage workflow for software work, built around the el
 
 ## Install
 
+Two marketplaces, both keep working — pick whichever you prefer:
+
+**Latest (personal marketplace, always up to date):**
+
+```
+/plugin marketplace add vshvedov/elephant-goldfish-plugin
+/plugin install elephant-goldfish@claude-workflows-marketplace
+```
+
+**Stable (official Claude Code marketplace):**
+
 ```
 /plugin install elephant-goldfish@claude-plugins-official
 ```
+
+Both install the same plugin. The personal marketplace ships updates as soon as they land in this repo; the official one is gated by Anthropic's review.
 
 Five skills become available, namespaced under `/elephant-goldfish:`:
 
