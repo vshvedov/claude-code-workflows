@@ -1,22 +1,20 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-workflows-marketplace",
-  "version": "1.0.0",
   "description": "Personal marketplace for Claude Code workflow plugins by Vladyslav Shvedov.",
   "owner": {
-    "name": "Vladyslav Shvedov",
-    "url": "https://github.com/vshvedov"
+    "name": "Vladyslav Shvedov"
   },
   "plugins": [
     {
-      "id": "elephant-goldfish",
-      "name": "Elephant Goldfish",
-      "version": "1.0.0",
+      "name": "elephant-goldfish",
       "description": "Five-stage elephant/goldfish workflow for software work in Claude Code: brainstorm, PRD, fix-bug, new-feature, precommit-review.",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/vshvedov/elephant-goldfish-plugin.git"
+      "author": {
+        "name": "Vladyslav Shvedov",
+        "url": "https://github.com/vshvedov"
       },
-      "license": "MIT",
+      "category": "workflow",
+      "source": ".",
       "homepage": "https://github.com/vshvedov/elephant-goldfish-plugin",
       "keywords": [
         "workflow",
